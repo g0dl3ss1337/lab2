@@ -83,6 +83,7 @@ namespace Task1
             }
         }
 
+
         public void Print()
         {
             Console.WriteLine($"Index: {index}\n" +
