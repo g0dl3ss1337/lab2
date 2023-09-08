@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using Task1;
 
 namespace Task1
@@ -7,6 +8,8 @@ namespace Task1
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+
             Address address_data = new Address();
 
             address_data.Index = "02000";
