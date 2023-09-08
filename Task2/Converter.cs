@@ -14,7 +14,7 @@ namespace Task2
 
         public double ConvertToUah(double amount, string currency)
         {
-            switch (currency)
+            switch (currency.ToLower())
             {
                 case "usd":
                     return amount * UsdRate;
@@ -29,7 +29,7 @@ namespace Task2
 
         public double ConvertFromUah(double amount, string currency)
         {
-            switch (currency)
+            switch (currency.ToLower())
             {
                 case "usd":
                     return amount / UsdRate;
